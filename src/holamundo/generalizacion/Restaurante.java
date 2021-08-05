@@ -11,17 +11,22 @@ package holamundo.generalizacion;
  */
 public class Restaurante {
     
-    public void hacerPizza(Pizza pizza){
+    public int hacerPizza(Pizza pizza) throws Exception{
         System.out.println("Haciendo pizza:");
-        if(pizza instanceof Hawaina){
+        if(pizza instanceof Hawaiana){
             System.out.println("de las pizzas más ricas, guiño guiño");
         }
-        if(pizza instanceof Napolitana){
+        else if(pizza instanceof Napolitana){
             System.out.println("Napolitana");
         }
-        if(pizza instanceof Pepperoni){
+        else if(pizza instanceof Pepperoni){
             System.out.println("Pepperoni");
         }
+        else{
+            throw new Exception();
+        }
+        
+        return 1;
     }
     
 }

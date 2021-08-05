@@ -18,7 +18,7 @@ public class Main {
     
     public static void main(String[] args) {
         Restaurante restaurante = new Restaurante();
-        Hawaina hawaiana = new Hawaina();
+        Hawaiana hawaiana = new Hawaiana();
         restaurante.hacerPizza(hawaiana);
     }
     
