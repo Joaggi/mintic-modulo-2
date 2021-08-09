@@ -19,7 +19,12 @@ public class Main {
     public static void main(String[] args) {
         Restaurante restaurante = new Restaurante();
         Hawaiana hawaiana = new Hawaiana();
-        restaurante.hacerPizza(hawaiana);
+        try{
+            restaurante.hacerPizza(hawaiana);
+        }
+        catch(Exception e){
+            
+        }
     }
     
     // 1. ¿Qué es un diagrama UML?

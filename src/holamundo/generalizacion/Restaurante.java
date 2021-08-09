@@ -13,6 +13,9 @@ public class Restaurante {
     
     public int hacerPizza(Pizza pizza) throws Exception{
         System.out.println("Haciendo pizza:");
+        
+        pizza.hacerPizza();
+        
         if(pizza instanceof Hawaiana){
             System.out.println("de las pizzas más ricas, guiño guiño");
         }

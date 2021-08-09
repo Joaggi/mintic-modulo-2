@@ -11,4 +11,6 @@ package holamundo.generalizacion;
  */
 public abstract class Pizza {
     String[] ingredientes;
+    
+    abstract int hacerPizza();
 }

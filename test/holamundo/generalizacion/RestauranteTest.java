@@ -66,6 +66,10 @@ public class RestauranteTest {
     
     //Mocks
     public class Mexicana extends Pizza{
-        
+
+        @Override
+        int hacerPizza() {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
     }
 }

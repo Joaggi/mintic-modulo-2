@@ -10,5 +10,10 @@ package holamundo.generalizacion;
  * @author J_oa_
  */
 public class Napolitana extends Pizza{
+
+    @Override
+    int hacerPizza() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
